@@ -80,7 +80,7 @@ var index_config_default = {
     {name: "饭太硬",
      address: "http://www.饭太硬.com/tv"},
     {name: "ok吊炸天",
-     address: "http://ok321.top/tv"}
+     address: "http://ok321.top/tv"}，
     {name: "🍁枫林影视",
       address: "http://142.171.248.206:5757/api/枫林影视?pwd=dzyyds"},
     {name: "5️⃣55影视",
