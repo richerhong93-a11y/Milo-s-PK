@@ -71,8 +71,8 @@ var index_config_default = {
     autoPush: true
   },
  t4: {list: [
-    {name: "王小二",
-     address: "http://tvbox.xn--4kq62z5rby2qupq9ub.top/"},
+    {name: "✈️关注TG频道@stymei",
+      address: "http://zhangqun1818.serv00.net:6628/?spider=独播库"},
     {name: "肥猫",
      address: "http://hello.肥猫.com"},
     {name: "小盒子4k",
@@ -97,10 +97,6 @@ var index_config_default = {
       address: "http://zhangqun1818.serv00.net:5052/?sp=土豆浏览器"},
     {name: "🐈‍⬛七猫短剧",
       address: "http://zhangqun1818.serv00.net:6628/?spider=七猫短剧"},
-    {name: "🍚西饭短剧",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=西饭短剧"},
-    {name: "🦛河马短剧",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=河马短剧"},
     {name: "🐣天堂PHP",
       address: "https://php.doube.eu.org/spider/php/电影天堂.php"},
     {name: "💧欧乐PHP",
