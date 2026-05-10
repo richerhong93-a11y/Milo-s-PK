@@ -72,15 +72,15 @@ var index_config_default = {
   },
  t4: {list: [
     {name: "王小二",
-     address: "http://tvbox.王二小放牛娃.top"}
+     address: "http://tvbox.王二小放牛娃.top"}，
     {name: "肥猫",
-     address: "http://hello.肥猫.com"}
+     address: "http://hello.肥猫.com"}，
     {name: "小盒子4k",
-     address: "http://hello.肥猫.com"}
+     address: "http://hello.肥猫.com"}，
     {name: "饭太硬",
-     address: "http://fty.xxooo.cf/tv"}
+     address: "http://fty.xxooo.cf/tv"}，
     {name: "南风无广",
-     address: "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"}
+     address: "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"}，
 ]},
   cms: {list: [
   {name: "🌪️暴风采集",
