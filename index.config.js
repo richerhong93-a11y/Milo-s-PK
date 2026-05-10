@@ -76,7 +76,7 @@ var index_config_default = {
     {name: "肥猫",
      address: "http://hello.肥猫.com"},
     {name: "小盒子4k",
-     address: "http://hello.肥猫.com"},
+     address: "https://tv.nxog.top/m"},
     {name: "饭太硬",
      address: "http://www.饭太硬.com/tv"},
     {name: "ok吊炸天",
