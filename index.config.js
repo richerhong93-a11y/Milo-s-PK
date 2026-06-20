@@ -160,7 +160,7 @@ var index_config_default = {
   {name: "1080", address: "https://api.1080zyku.com/inc/apijson.php"},
   {name: "OK", address: "https://api.okzyw.net/api.php/provide/vod"},
   {name: "索尼", address: "https://suoniapi.com/api.php/provide/vod"},
-  {name: "艾旦", address: "https://lovedan.net/api.php/provide/vod"}
+  {name: "艾旦", address: "https://lovedan.net/api.php/provide/vod"},
 ]},
   cms: {list: [
   {name: "🌪️暴风采集",
