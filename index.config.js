@@ -71,294 +71,92 @@ var index_config_default = {
     autoPush: true
   },
  t4: {list: [
-    {name: "[主用] 瓜子影视",
-     address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
-    {name: "乌云影视",
-     address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_wooyun.js"},
-    {name: "两个BT",
-     address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_bttwoo.js"},
-    {name: "修罗影视",
-     address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_biliys.js"},
-    {name: "欧乐影视",
-     address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_olevod.js"},
-    {name: "奇优影院",
-     address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_qiyou.js"},
-    {name: "韩剧看看",
-     address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_hjkk.js"},
-    {name: "八号影视",
-     address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_bhys.js"},
-    {name: "E-ACG",
-     address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_eacg.js"},
-    {name: "E-ACG2",
-     address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_eacg2.js"},
-    {name: "girigirilove",
-     address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_girigirilove.js"},
-    {name: "1080",
-     address: "https://api.1080zyku.com/inc/apijson.php"},
-    {name: "ok吊炸天",
-     address: "http://ok321.top/tv"},
-    {name: "🍁枫林影视",
-      address: "http://142.171.248.206:5757/api/枫林影视?pwd=dzyyds"},
-    {name: "5️⃣55影视",
-      address: "http://142.171.248.206:5757/api/55影视?pwd=dzyyds"},
-    {name: "👀可视影视",
-      address: "http://142.171.248.206:5757/api/可视影院?pwd=dzyyds"},
-    {name: "🧸泥巴影视",
-      address: "http://142.171.248.206:5757/api/泥视频?pwd=dzyyds"},
-    {name: "💎新浪影视",
-      address: "http://142.171.248.206:5757/api/新浪资源?do=py&pwd=dzyyds"},
-      {name: "🦄U视影视",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=UVod"},
-      {name: "🥔土豆影视",
-      address: "http://zhangqun1818.serv00.net:5052/?sp=土豆浏览器"},
-    {name: "🐈‍⬛七猫短剧",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=七猫短剧"},
-    {name: "🐣天堂PHP",
-      address: "https://php.doube.eu.org/spider/php/电影天堂.php"},
-    {name: "💧欧乐PHP",
-      address: "https://php.doube.eu.org/spider/php/欧乐影院.php"},
-    {name: "🎞️影视爬虫",
-      address: "https://dy.7772888.xyz/api.php/tvbox"},
-    {name: "🍟Emby嗅探",
-      address: "http://zhangqun1818.serv00.net:6628/?spider=emby"},
-     {name: "✈️关注TG频道@stymei", address: "https://19q.cc/api.php/provide/vod"},
-  {name: "无水印", address: "https://api.wsyzy.net/api.php/provide/vod"},
-  {name: "爬虫", address: "https://dy.7772888.xyz/api.php/tvbox"},
-  {name: "极速", address: "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json"},
-  {name: "暴风", address: "http://by.bfzyapi.com/api.php/provide/vod"},
-  {name: "电影天堂", address: "http://dyttzyw.com/api.php/provide/vod"},
-  {name: "豆瓣", address: "https://caiji.doubanzy.cc/api.php/provide/vod"},
-  {name: "茅台", address: "https://caiji.maotaizy.cc/api.php/provide/vod"},
-  {name: "如意", address: "http://cj.rycjapi.com/api.php/provide/vod"},
-  {name: "量子", address: "https://cj.lziapi.com/api.php/provide/vod"},
-  {name: "360", address: "https://360zyzz.com/api.php/provide/vod"},
-  {name: "U酷", address: "https://api.ukuapi88.com/api.php/provide/vod"},
-  {name: "天涯", address: "https://tyyszyapi.com/api.php/provide/vod"},
-  {name: "无尽", address: "https://api.wujinapi.me/api.php/provide/vod"},
-  {name: "iQIYI", address: "https://iqiyizyapi.com/api.php/provide/vod"},
-  {name: "ikun", address: "https://ikunzyapi.com/api.php/provide/vod"},
-  {name: "魔都", address: "https://www.mdzyapi.com/api.php/provide/vod"},
-  {name: "百度云", address: "https://api.apibdzy.com/api.php/provide/vod"},
-  {name: "闪电", address: "https://xsd.sdzyapi.com/api.php/provide/vod"},
-  {name: "红牛", address: "https://www.hongniuzy2.com/api.php/provide/vod"},
-  {name: "光速", address: "https://api.guangsuapi.com/api.php/provide/vod"},
-  {name: "新浪", address: "https://api.xinlangapi.com/xinlangapi.php/provide/vod"},
-  {name: "快车", address: "https://caiji.kuaichezy.org/api.php/provide/vod"},
-  {name: "金鹰", address: "https://jyzyapi.com/provide/vod"},
-  {name: "猫眼", address: "https://api.maoyanapi.top/api.php/provide/vod"},
-  {name: "旺旺", address: "https://api.wwzy.tv/api.php/provide/vod/?ac=list"},
-  {name: "虎牙", address: "https://www.huyaapi.com/api.php/provide/vod"},
-  {name: "豪华", address: "https://hhzyapi.com/api.php/provide/vod"},
-  {name: "速播", address: "https://subocj.com/api.php/provide/vod"},
-  {name: "非凡", address: "https://ffzy1.tv/api.php/provide/vod"},
-  {name: "樱花", address: "https://m3u8.apiyhzy.com/api.php/provide/vod"},
-  {name: "优质", address: "http://api.yzzy-api.com/inc/apijson.php"},
-  {name: "鸭鸭", address: "https://cj.yayazy.net/api.php/provide/vod"},
-  {name: "牛牛", address: "https://api.niuniuzy.me/api.php/provide/vod"},
-  {name: "最大", address: "http://zuidazy.me/api.php/provide/vod"},
-  {name: "飘零", address: "https://p2100.net/api.php/provide/vod"},
-  {name: "1080", address: "https://api.1080zyku.com/inc/apijson.php"},
-  {name: "OK", address: "https://api.okzyw.net/api.php/provide/vod"},
-  {name: "索尼", address: "https://suoniapi.com/api.php/provide/vod"},
-  {name: "艾旦", address: "https://lovedan.net/api.php/provide/vod"}
-]},
+    {name: "[主用] 瓜子影视", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
+    {name: "乌云影视", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_wooyun.js"},
+    {name: "两个BT", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_bttwoo.js"},
+    {name: "修罗影视", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_biliys.js"},
+    {name: "欧乐影视", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_olevod.js"},
+    {name: "奇优影院", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_qiyou.js"},
+    {name: "韩剧看看", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_hjkk.js"},
+    {name: "八号影视", address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_bhys.js"},
+    {name: "E-ACG", address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_eacg.js"},
+    {name: "E-ACG2", address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_eacg2.js"},
+    {name: "girigirilove", address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_girigirilove.js"},
+    {name: "1080", address: "https://api.1080zyku.com/inc/apijson.php"},
+    {name: "ok吊炸天", address: "http://ok321.top/tv"},
+    {name: "🍁枫林影视", address: "http://142.171.248.206:5757/api/枫林影视?pwd=dzyyds"},
+    {name: "5️⃣55影视", address: "http://142.171.248.206:5757/api/55影视?pwd=dzyyds"},
+    {name: "👀可视影视", address: "http://142.171.248.206:5757/api/可视影院?pwd=dzyyds"},
+    {name: "🧸泥巴影视", address: "http://142.171.248.206:5757/api/泥视频?pwd=dzyyds"},
+    {name: "💎新浪影视", address: "http://142.171.248.206:5757/api/新浪资源?do=py&pwd=dzyyds"},
+    {name: "🦄U视影视", address: "http://zhangqun1818.serv00.net:5052/?sp=UVod"},
+    {name: "🥔土豆影视", address: "http://zhangqun1818.serv00.net:5052/?sp=土豆浏览器"},
+    {name: "🐈‍⬛七猫短剧", address: "http://zhangqun1818.serv00.net:6628/?spider=七猫短剧"},
+    {name: "🐣天堂PHP", address: "https://php.doube.eu.org/spider/php/电影天堂.php"},
+    {name: "💧欧乐PHP", address: "https://php.doube.eu.org/spider/php/欧乐影院.php"},
+    {name: "🎞️影视爬虫", address: "https://dy.7772888.xyz/api.php/tvbox"},
+    {name: "🍟Emby嗅探", address: "http://zhangqun1818.serv00.net:6628/?spider=emby"},
+    {name: "✈️关注TG频道@stymei", address: "https://19q.cc/api.php/provide/vod"},
+    {name: "无水印", address: "https://api.wsyzy.net/api.php/provide/vod"},
+    {name: "极速", address: "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json"},
+    {name: "暴风", address: "http://by.bfzyapi.com/api.php/provide/vod"},
+    {name: "电影天堂", address: "http://dyttzyw.com/api.php/provide/vod"},
+    {name: "豆瓣", address: "https://caiji.doubanzy.cc/api.php/provide/vod"},
+    {name: "茅台", address: "https://caiji.maotaizy.cc/api.php/provide/vod"},
+    {name: "如意", address: "http://cj.rycjapi.com/api.php/provide/vod"},
+    {name: "量子", address: "https://cj.lziapi.com/api.php/provide/vod"},
+    {name: "360", address: "https://360zyzz.com/api.php/provide/vod"},
+    {name: "U酷", address: "https://api.ukuapi88.com/api.php/provide/vod"},
+    {name: "天涯", address: "https://tyyszyapi.com/api.php/provide/vod"},
+    {name: "无尽", address: "https://api.wujinapi.me/api.php/provide/vod"},
+    {name: "iQIYI", address: "https://iqiyizyapi.com/api.php/provide/vod"},
+    {name: "ikun", address: "https://ikunzyapi.com/api.php/provide/vod"},
+    {name: "魔都", address: "https://www.mdzyapi.com/api.php/provide/vod"},
+    {name: "百度云", address: "https://api.apibdzy.com/api.php/provide/vod"},
+    {name: "闪电", address: "https://xsd.sdzyapi.com/api.php/provide/vod"},
+    {name: "红牛", address: "https://www.hongniuzy2.com/api.php/provide/vod"},
+    {name: "光速", address: "https://api.guangsuapi.com/api.php/provide/vod"},
+    {name: "新浪", address: "https://api.xinlangapi.com/xinlangapi.php/provide/vod"},
+    {name: "快车", address: "https://caiji.kuaichezy.org/api.php/provide/vod"},
+    {name: "金鹰", address: "https://jyzyapi.com/provide/vod"},
+    {name: "猫眼", address: "https://api.maoyanapi.top/api.php/provide/vod"},
+    {name: "旺旺", address: "https://api.wwzy.tv/api.php/provide/vod/?ac=list"},
+    {name: "虎牙", address: "https://www.huyaapi.com/api.php/provide/vod"},
+    {name: "豪华", address: "https://hhzyapi.com/api.php/provide/vod"},
+    {name: "速播", address: "https://subocj.com/api.php/provide/vod"},
+    {name: "非凡", address: "https://ffzy1.tv/api.php/provide/vod"},
+    {name: "樱花", address: "https://m3u8.apiyhzy.com/api.php/provide/vod"},
+    {name: "优质", address: "http://api.yzzy-api.com/inc/apijson.php"},
+    {name: "鸭鸭", address: "https://cj.yayazy.net/api.php/provide/vod"},
+    {name: "牛牛", address: "https://api.niuniuzy.me/api.php/provide/vod"},
+    {name: "最大", address: "http://zuidazy.me/api.php/provide/vod"},
+    {name: "飘零", address: "https://p2100.net/api.php/provide/vod"},
+    {name: "OK", address: "https://api.okzyw.net/api.php/provide/vod"},
+    {name: "索尼", address: "https://suoniapi.com/api.php/provide/vod"},
+    {name: "艾旦", address: "https://lovedan.net/api.php/provide/vod"}
+  ]},
   cms: {list: [
   {name: "🌪️暴风采集",
-   address: "http://by.bfzyapi.com/api.php/provide/vod"},
+  address: "http://by.bfzyapi.com/api.php/provide/vod"},
   {name: "🪐iQiYi采集",
-   address: "https://iqiyizyapi.com/api.php/provide/vod"},
+  address: "https://iqiyizyapi.com/api.php/provide/vod"},
   {name: "无水印",
-   address: "https://api.wsyzy.net/api.php/provide/vod"},
+  address: "https://api.wsyzy.net/api.php/provide/vod"},
   {name: "爬虫",
-   address: "https://dy.7772888.xyz/api.php/tvbox"},
+  address: "https://dy.7772888.xyz/api.php/tvbox"},
   {name: "金蝉",
-   address: "https://zy.jinchancaiji.com/api.php/provide/vod"},
+  address: "https://zy.jinchancaiji.com/api.php/provide/vod"},
   {name: "艾旦影视",
-   address: "https://lovedan.net/api.php/provide/vod"},
+  address: "https://lovedan.net/api.php/provide/vod"},
   {name: "非凡",
-   address: "https://ffzy1.tv/api.php/provide/vod"},
+  address: "https://ffzy1.tv/api.php/provide/vod"},
   {name: "牛牛",
-   address: "https://api.niuniuzy.me/api.php/provide/vod"},
+  address: "https://api.niuniuzy.me/api.php/provide/vod"},
   {name: "最大",
-   address: "http://zuidazy.me/api.php/provide/vod"},
+  address: "http://zuidazy.me/api.php/provide/vod"},
   {name: "飘零",
-   address: "https://p2100.net/api.php/provide/vod"},
-]},
-现在，t4.list中有重复的地址：
-
-"https://api.1080zyku.com/inc/apijson.php" 出现两次（一次在“1080”前面，一次在“1080”后面）
-
-"https://dy.7772888.xyz/api.php/tvbox" 出现两次（一次是“🎞️影视爬虫”，一次是“爬虫”）
-
-可能还有其他重复？检查“http://by.bfzyapi.com/api.php/provide/vod”出现一次在“暴风”，但cms中也有“暴风采集”地址相同，但那是cms列表，不冲突。
-
-“https://lovedan.net/api.php/provide/vod”出现一次在“艾旦”，cms中也有“艾旦影视”地址相同，但属于不同组。
-所以t4中去重按address，保留第一个出现的。
-
-第一个出现的“1080”是在前面（第12个条目），后面又有一个“1080”在最后，所以去掉后面的。
-第一个出现的“影视爬虫”和“爬虫”哪个先？t4中“🎞️影视爬虫”出现在较前（大约在“欧乐PHP”之后），而“爬虫”出现在后面，所以保留“🎞️影视爬虫”，去掉“爬虫”。
-另外“✈️关注TG频道@stymei”只有一个。
-“无水印”只有一个。
-“暴风”只有一个，等等。
-
-所以去重后，t4.list中会减少两个条目（去掉重复的“1080”和“爬虫”）。
-
-另外注意“极速”地址唯一。
-
-所以最终去重后的t4.list应该有原始数量减去重复数。原始t4.list从第一个到最后一个，我数一下：从“瓜子影视”到“艾旦”总共多少个？我大约数一下：前面到“Emby嗅探”有28个？然后后面从“✈️”到“艾旦”有？实际上，整个列表有大约50多个。但去重后去掉2个。
-
-我可以直接提供整个去重后的列表。
-
-另外，用户可能也希望cms去重，但cms中可能没有重复（地址可能重复，但不同name，但cms内可能也有重复？cms中“暴风采集”和t4中的“暴风”地址相同，但不同列表，无需去重。cms内没有重复地址，因为每个地址不同。所以cms不用去重。
-
-因此，我只对t4去重。
-
-现在，我需要输出一个数组，格式如最初要求。并且要说明我已去重。
-
-我的回答应该清晰：提供去重后的t4.list，并且列出哪些被去掉了。
-
-另外，用户可能还希望格式是JS对象字面量（不带引号），因为他最初要求那样。我提供不带引号的。
-
-但为了保险，我可以同时提供带双引号的JSON版本，但既然他第一次接受不带引号，我就提供不带引号。
-
-现在，我要构建去重后的列表。我需要将t4.list中的所有条目按顺序列出，跳过重复的。
-
-我手动提取所有条目，按顺序，遇到重复地址跳过。
-
-我按顺序列出所有条目（从第一个到最后一个），然后跳过重复。
-
-我识别重复：
-
-第一个“1080”地址出现，保留。
-
-后面“🎞️影视爬虫”地址“https://dy.7772888.xyz/api.php/tvbox”出现，保留（因为这是第一次出现该地址）。
-
-后面“爬虫”地址相同，跳过。
-
-后面“1080”地址相同，跳过。
-
-其余都保留。
-
-所以最终列表就是所有条目除了“爬虫”和最后一个“1080”。
-
-我直接生成新的数组。
-
-为了确保准确，我可以复制整个t4.list内容，然后删除那两个重复项。
-
-最终输出格式为：
-[
-{name: "[主用] 瓜子影视", address: "..."},
-...
-]
-
-注意保留所有特殊字符。
-
-现在，我准备回答。我将在回答中提供去重后的列表，并解释去掉了哪两个。
-
-另外，用户可能还想要cms的去重，但cms没有重复，我可以不提。
-
-最后，提醒用户如果还有其他报错，请检查格式（是否缺逗号等）。我的列表应该没有语法错误。
-
-现在，撰写回答。
-
-明白了，您是要对您贴出的整个 t4.list 进行去重。我按 地址（address） 去重（保留首次出现的条目），因为地址相同即代表同一资源源。经检查，t4.list 中有 两个重复地址：
-
-https://api.1080zyku.com/inc/apijson.php（重复出现两次，保留第一个“1080”）
-
-https://dy.7772888.xyz/api.php/tvbox（重复出现两次，保留第一个“🎞️影视爬虫”）
-
-去重后的 t4.list 如下（格式完全符合您最初的要求，属性名不加引号，用于 JS 代码）：
-
-javascript
-[
-  {name: "[主用] 瓜子影视", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
-  {name: "乌云影视", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_wooyun.js"},
-  {name: "两个BT", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_bttwoo.js"},
-  {name: "修罗影视", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_biliys.js"},
-  {name: "欧乐影视", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_olevod.js"},
-  {name: "奇优影院", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_qiyou.js"},
-  {name: "韩剧看看", address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_hjkk.js"},
-  {name: "八号影视", address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_bhys.js"},
-  {name: "E-ACG", address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_eacg.js"},
-  {name: "E-ACG2", address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_eacg2.js"},
-  {name: "girigirilove", address: "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/Xiu_girigirilove.js"},
-  {name: "1080", address: "https://api.1080zyku.com/inc/apijson.php"},          // 保留第一个
-  {name: "ok吊炸天", address: "http://ok321.top/tv"},
-  {name: "🍁枫林影视", address: "http://142.171.248.206:5757/api/枫林影视?pwd=dzyyds"},
-  {name: "5️⃣55影视", address: "http://142.171.248.206:5757/api/55影视?pwd=dzyyds"},
-  {name: "👀可视影视", address: "http://142.171.248.206:5757/api/可视影院?pwd=dzyyds"},
-  {name: "🧸泥巴影视", address: "http://142.171.248.206:5757/api/泥视频?pwd=dzyyds"},
-  {name: "💎新浪影视", address: "http://142.171.248.206:5757/api/新浪资源?do=py&pwd=dzyyds"},
-  {name: "🦄U视影视", address: "http://zhangqun1818.serv00.net:5052/?sp=UVod"},
-  {name: "🥔土豆影视", address: "http://zhangqun1818.serv00.net:5052/?sp=土豆浏览器"},
-  {name: "🐈‍⬛七猫短剧", address: "http://zhangqun1818.serv00.net:6628/?spider=七猫短剧"},
-  {name: "🐣天堂PHP", address: "https://php.doube.eu.org/spider/php/电影天堂.php"},
-  {name: "💧欧乐PHP", address: "https://php.doube.eu.org/spider/php/欧乐影院.php"},
-  {name: "🎞️影视爬虫", address: "https://dy.7772888.xyz/api.php/tvbox"},        // 保留第一个
-  {name: "🍟Emby嗅探", address: "http://zhangqun1818.serv00.net:6628/?spider=emby"},
-  {name: "✈️关注TG频道@stymei", address: "https://19q.cc/api.php/provide/vod"},
-  {name: "无水印", address: "https://api.wsyzy.net/api.php/provide/vod"},
-  // 以下删除了重复的 "爬虫" 和 "1080"
-  {name: "极速", address: "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json"},
-  {name: "暴风", address: "http://by.bfzyapi.com/api.php/provide/vod"},
-  {name: "电影天堂", address: "http://dyttzyw.com/api.php/provide/vod"},
-  {name: "豆瓣", address: "https://caiji.doubanzy.cc/api.php/provide/vod"},
-  {name: "茅台", address: "https://caiji.maotaizy.cc/api.php/provide/vod"},
-  {name: "如意", address: "http://cj.rycjapi.com/api.php/provide/vod"},
-  {name: "量子", address: "https://cj.lziapi.com/api.php/provide/vod"},
-  {name: "360", address: "https://360zyzz.com/api.php/provide/vod"},
-  {name: "U酷", address: "https://api.ukuapi88.com/api.php/provide/vod"},
-  {name: "天涯", address: "https://tyyszyapi.com/api.php/provide/vod"},
-  {name: "无尽", address: "https://api.wujinapi.me/api.php/provide/vod"},
-  {name: "iQIYI", address: "https://iqiyizyapi.com/api.php/provide/vod"},
-  {name: "ikun", address: "https://ikunzyapi.com/api.php/provide/vod"},
-  {name: "魔都", address: "https://www.mdzyapi.com/api.php/provide/vod"},
-  {name: "百度云", address: "https://api.apibdzy.com/api.php/provide/vod"},
-  {name: "闪电", address: "https://xsd.sdzyapi.com/api.php/provide/vod"},
-  {name: "红牛", address: "https://www.hongniuzy2.com/api.php/provide/vod"},
-  {name: "光速", address: "https://api.guangsuapi.com/api.php/provide/vod"},
-  {name: "新浪", address: "https://api.xinlangapi.com/xinlangapi.php/provide/vod"},
-  {name: "快车", address: "https://caiji.kuaichezy.org/api.php/provide/vod"},
-  {name: "金鹰", address: "https://jyzyapi.com/provide/vod"},
-  {name: "猫眼", address: "https://api.maoyanapi.top/api.php/provide/vod"},
-  {name: "旺旺", address: "https://api.wwzy.tv/api.php/provide/vod/?ac=list"},
-  {name: "虎牙", address: "https://www.huyaapi.com/api.php/provide/vod"},
-  {name: "豪华", address: "https://hhzyapi.com/api.php/provide/vod"},
-  {name: "速播", address: "https://subocj.com/api.php/provide/vod"},
-  {name: "非凡", address: "https://ffzy1.tv/api.php/provide/vod"},
-  {name: "樱花", address: "https://m3u8.apiyhzy.com/api.php/provide/vod"},
-  {name: "优质", address: "http://api.yzzy-api.com/inc/apijson.php"},
-  {name: "鸭鸭", address: "https://cj.yayazy.net/api.php/provide/vod"},
-  {name: "牛牛", address: "https://api.niuniuzy.me/api.php/provide/vod"},
-  {name: "最大", address: "http://zuidazy.me/api.php/provide/vod"},
-  {name: "飘零", address: "https://p2100.net/api.php/provide/vod"},
-  // 下面这个重复的 1080 已删除（保留了第一个）
-  {name: "OK", address: "https://api.okzyw.net/api.php/provide/vod"},
-  {name: "索尼", address: "https://suoniapi.com/api.php/provide/vod"},
-  {name: "艾旦", address: "https://lovedan.net/api.php/provide/vod"}
-]},
-  cms: {list: [
-  {name: "🌪️暴风采集",
-   address: "http://by.bfzyapi.com/api.php/provide/vod"},
-  {name: "🪐iQiYi采集",
-   address: "https://iqiyizyapi.com/api.php/provide/vod"},
-  {name: "无水印",
-   address: "https://api.wsyzy.net/api.php/provide/vod"},
-  {name: "爬虫",
-   address: "https://dy.7772888.xyz/api.php/tvbox"},
-  {name: "金蝉",
-   address: "https://zy.jinchancaiji.com/api.php/provide/vod"},
-  {name: "艾旦影视",
-   address: "https://lovedan.net/api.php/provide/vod"},
-  {name: "非凡",
-   address: "https://ffzy1.tv/api.php/provide/vod"},
-  {name: "牛牛",
-   address: "https://api.niuniuzy.me/api.php/provide/vod"},
-  {name: "最大",
-   address: "http://zuidazy.me/api.php/provide/vod"},
-  {name: "飘零",
-   address: "https://p2100.net/api.php/provide/vod"},
-]},
+  address: "https://p2100.net/api.php/provide/vod"},
+  ]},
   alist: [
     {
       name: "🐉神族九帝",
