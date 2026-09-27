@@ -73,6 +73,8 @@ var index_config_default = {
  t4: {list: [
     {name: "✈️关注TG频道@stymei",
       address: "http://zhangqun1818.serv00.net:6628/?spider=独播库"},
+    {name: "jcloud采集", address: "http://154.219.117.232:9981/jacloudapi.php/provide/vod"},
+    {name: "155api采集", address: "https://155api.com/api.php/provide/vod"},
     {name: "[主用] 瓜子影视",
      address: "https://cdn.jsdelivr.net/gh/YYDS678/uzVideo-extensions@main/vod/js/Zhi_gzys.js"},
     {name: "乌云影视",
